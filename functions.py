@@ -37,5 +37,5 @@ def fibonacci_number(max_sequence):
             fibo.append(new);
     return fibo
 
-
-print(fibonacci_number(max_sequence))
+max=int(input("how many terms do you want in the sequence?"))
+print(', '.join(str(v) for v in fibonacci_number(max)))
